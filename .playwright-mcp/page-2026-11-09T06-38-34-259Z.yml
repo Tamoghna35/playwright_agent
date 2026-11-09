@@ -1,0 +1,496 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link "DummyJSON" [ref=e4] [cursor=pointer]:
+          - /url: /
+        - list [ref=e5]:
+          - listitem [ref=e6]:
+            - link "Home" [ref=e7] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e8]:
+            - link "Docs" [ref=e9] [cursor=pointer]:
+              - /url: /docs
+          - listitem [ref=e10]:
+            - link "Tools" [ref=e11] [cursor=pointer]:
+              - /url: /tools
+          - listitem [ref=e12]:
+            - link [ref=e13] [cursor=pointer]:
+              - /url: https://github.com/Ovi/DummyJSON
+              - img "Icon" [ref=e14]
+              - text: GitHub
+  - navigation [ref=e15]:
+    - list [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Intro" [ref=e18] [cursor=pointer]:
+          - /url: /docs
+        - list:
+          - listitem [ref=e21]:
+            - link "Test" [ref=e22] [cursor=pointer]:
+              - /url: /docs/#intro-test
+          - listitem [ref=e23]:
+            - link "Limiting Resources" [ref=e24] [cursor=pointer]:
+              - /url: /docs/#intro-limit
+          - listitem [ref=e25]:
+            - link "Delay Responses" [ref=e26] [cursor=pointer]:
+              - /url: /docs/#intro-delay
+          - listitem [ref=e27]:
+            - link "Resources as Auth User" [ref=e28] [cursor=pointer]:
+              - /url: /docs/#intro-auth
+          - listitem [ref=e29]:
+            - link "IP Address" [ref=e30] [cursor=pointer]:
+              - /url: /docs/#intro-ip
+          - listitem [ref=e31]:
+            - link "OpenAPI Spec" [ref=e32] [cursor=pointer]:
+              - /url: /docs/#intro-openapi
+      - listitem [ref=e33]:
+        - link "Tools" [ref=e34] [cursor=pointer]:
+          - /url: /docs/tools
+        - list:
+          - listitem [ref=e37]:
+            - link "2FA TOTP" [ref=e38] [cursor=pointer]:
+              - /url: /docs/tools#tools-2fa-get
+          - listitem [ref=e39]:
+            - link "Custom Response" [ref=e40] [cursor=pointer]:
+              - /url: /docs/tools#tools-custom-generate
+          - listitem [ref=e41]:
+            - link "Webhook" [ref=e42] [cursor=pointer]:
+              - /url: /docs/tools#tools-webhook-create
+      - listitem [ref=e43]:
+        - link "Dynamic Image" [ref=e44] [cursor=pointer]:
+          - /url: /docs/image
+        - list:
+          - listitem [ref=e47]:
+            - link "Generate square image" [ref=e48] [cursor=pointer]:
+              - /url: /docs/image/#image-square
+          - listitem [ref=e49]:
+            - link "Custom width / height" [ref=e50] [cursor=pointer]:
+              - /url: /docs/image/#image-custom-size
+          - listitem [ref=e51]:
+            - link "Custom text" [ref=e52] [cursor=pointer]:
+              - /url: /docs/image/#image-custom-text
+          - listitem [ref=e53]:
+            - link "Custom Custom Background and Text Color" [ref=e54] [cursor=pointer]:
+              - /url: /docs/image/#image-custom-color
+          - listitem [ref=e55]:
+            - link "Different file formats" [ref=e56] [cursor=pointer]:
+              - /url: /docs/image/#image-format
+          - listitem [ref=e57]:
+            - link "Custom font family" [ref=e58] [cursor=pointer]:
+              - /url: /docs/image/#image-font-family
+          - listitem [ref=e59]:
+            - link "Custom font size" [ref=e60] [cursor=pointer]:
+              - /url: /docs/image/#image-font-size
+          - listitem [ref=e61]:
+            - link "Create identicon" [ref=e62] [cursor=pointer]:
+              - /url: /docs/image/#image-identicon
+      - listitem [ref=e63]:
+        - link "Auth" [ref=e64] [cursor=pointer]:
+          - /url: /docs/auth
+        - list:
+          - listitem [ref=e67]:
+            - link "Login and get tokens" [ref=e68] [cursor=pointer]:
+              - /url: /docs/auth/#auth-login
+          - listitem [ref=e69]:
+            - link "Get auth user" [ref=e70] [cursor=pointer]:
+              - /url: /docs/auth/#auth-me
+          - listitem [ref=e71]:
+            - link "Refresh tokens" [ref=e72] [cursor=pointer]:
+              - /url: /docs/auth/#auth-refresh
+      - listitem [ref=e73]:
+        - link "Products" [ref=e74] [cursor=pointer]:
+          - /url: /docs/products
+        - list:
+          - listitem [ref=e77]:
+            - link "Get all products" [ref=e78] [cursor=pointer]:
+              - /url: /docs/products/#products-all
+          - listitem [ref=e79]:
+            - link "Get a single product" [ref=e80] [cursor=pointer]:
+              - /url: /docs/products/#products-single
+          - listitem [ref=e81]:
+            - link "Search products" [ref=e82] [cursor=pointer]:
+              - /url: /docs/products/#products-search
+          - listitem [ref=e83]:
+            - link "Limit & Skip products" [ref=e84] [cursor=pointer]:
+              - /url: /docs/products/#products-limit_skip
+          - listitem [ref=e85]:
+            - link "Sort products" [ref=e86] [cursor=pointer]:
+              - /url: /docs/products/#products-sort
+          - listitem [ref=e87]:
+            - link "Filter by modified date" [ref=e88] [cursor=pointer]:
+              - /url: /docs/products/#products-modified
+          - listitem [ref=e89]:
+            - link "Get all products categories" [ref=e90] [cursor=pointer]:
+              - /url: /docs/products/#products-categories
+          - listitem [ref=e91]:
+            - link "Get products category list" [ref=e92] [cursor=pointer]:
+              - /url: /docs/products/#products-category_list
+          - listitem [ref=e93]:
+            - link "Get products by category" [ref=e94] [cursor=pointer]:
+              - /url: /docs/products/#products-category
+          - listitem [ref=e95]:
+            - link "Add a product" [ref=e96] [cursor=pointer]:
+              - /url: /docs/products/#products-add
+          - listitem [ref=e97]:
+            - link "Update a product" [ref=e98] [cursor=pointer]:
+              - /url: /docs/products/#products-update
+          - listitem [ref=e99]:
+            - link "Delete a product" [ref=e100] [cursor=pointer]:
+              - /url: /docs/products/#products-delete
+      - listitem [ref=e101]:
+        - link "Carts" [ref=e102] [cursor=pointer]:
+          - /url: /docs/carts
+        - list:
+          - listitem [ref=e105]:
+            - link "Get all carts" [ref=e106] [cursor=pointer]:
+              - /url: /docs/carts/#carts-all
+          - listitem [ref=e107]:
+            - link "Get a single cart" [ref=e108] [cursor=pointer]:
+              - /url: /docs/carts/#carts-single
+          - listitem [ref=e109]:
+            - link "Get carts by user" [ref=e110] [cursor=pointer]:
+              - /url: /docs/carts/#carts-user
+          - listitem [ref=e111]:
+            - link "Limit & Skip carts" [ref=e112] [cursor=pointer]:
+              - /url: /docs/carts/#carts-limit_skip
+          - listitem [ref=e113]:
+            - link "Sort carts" [ref=e114] [cursor=pointer]:
+              - /url: /docs/carts/#carts-sort
+          - listitem [ref=e115]:
+            - link "Add a cart" [ref=e116] [cursor=pointer]:
+              - /url: /docs/carts/#carts-add
+          - listitem [ref=e117]:
+            - link "Update a cart" [ref=e118] [cursor=pointer]:
+              - /url: /docs/carts/#carts-update
+          - listitem [ref=e119]:
+            - link "Delete a cart" [ref=e120] [cursor=pointer]:
+              - /url: /docs/carts/#carts-delete
+      - listitem [ref=e121]:
+        - link "Recipes" [ref=e122] [cursor=pointer]:
+          - /url: /docs/recipes
+        - list:
+          - listitem [ref=e125]:
+            - link "Get all recipes" [ref=e126] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-all
+          - listitem [ref=e127]:
+            - link "Get a single recipe" [ref=e128] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-single
+          - listitem [ref=e129]:
+            - link "Search recipes" [ref=e130] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-search
+          - listitem [ref=e131]:
+            - link "Limit & Skip recipes" [ref=e132] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-limit_skip
+          - listitem [ref=e133]:
+            - link "Sort recipes" [ref=e134] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-sort
+          - listitem [ref=e135]:
+            - link "Get all recipes tags" [ref=e136] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-tags
+          - listitem [ref=e137]:
+            - link "Get recipes by tag" [ref=e138] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-tag
+          - listitem [ref=e139]:
+            - link "Get recipes by meal" [ref=e140] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-meal
+          - listitem [ref=e141]:
+            - link "Add a recipe" [ref=e142] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-add
+          - listitem [ref=e143]:
+            - link "Update a recipes" [ref=e144] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-update
+          - listitem [ref=e145]:
+            - link "Delete a recipe" [ref=e146] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-delete
+      - listitem [ref=e147]:
+        - link "Users" [ref=e148] [cursor=pointer]:
+          - /url: /docs/users
+        - list:
+          - listitem [ref=e151]:
+            - link "Get all users" [ref=e152] [cursor=pointer]:
+              - /url: /docs/users/#users-all
+          - listitem [ref=e153]:
+            - link "Login user" [ref=e154] [cursor=pointer]:
+              - /url: /docs/users/#users-login
+          - listitem [ref=e155]:
+            - link "Get auth user" [ref=e156] [cursor=pointer]:
+              - /url: /docs/users/#users-me
+          - listitem [ref=e157]:
+            - link "Get a single user" [ref=e158] [cursor=pointer]:
+              - /url: /docs/users/#users-single
+          - listitem [ref=e159]:
+            - link "Search users" [ref=e160] [cursor=pointer]:
+              - /url: /docs/users/#users-search
+          - listitem [ref=e161]:
+            - link "Filter users" [ref=e162] [cursor=pointer]:
+              - /url: /docs/users/#users-filter
+          - listitem [ref=e163]:
+            - link "Limit & Skip users" [ref=e164] [cursor=pointer]:
+              - /url: /docs/users/#users-limit_skip
+          - listitem [ref=e165]:
+            - link "Sort users" [ref=e166] [cursor=pointer]:
+              - /url: /docs/users/#users-sort
+          - listitem [ref=e167]:
+            - link "Get all posts tags" [ref=e168] [cursor=pointer]:
+              - /url: /docs/posts/#posts-tags
+          - listitem [ref=e169]:
+            - link "Get posts tag list" [ref=e170] [cursor=pointer]:
+              - /url: /docs/posts/#posts-tag_list
+          - listitem [ref=e171]:
+            - link "Get posts by tag" [ref=e172] [cursor=pointer]:
+              - /url: /docs/posts/#posts-tag
+          - listitem [ref=e173]:
+            - link "Get user's carts" [ref=e174] [cursor=pointer]:
+              - /url: /docs/users/#users-carts
+          - listitem [ref=e175]:
+            - link "Get user's posts" [ref=e176] [cursor=pointer]:
+              - /url: /docs/users/#users-posts
+          - listitem [ref=e177]:
+            - link "Get user's todos" [ref=e178] [cursor=pointer]:
+              - /url: /docs/users/#users-todos
+          - listitem [ref=e179]:
+            - link "Add a user" [ref=e180] [cursor=pointer]:
+              - /url: /docs/users/#users-add
+          - listitem [ref=e181]:
+            - link "Update a user" [ref=e182] [cursor=pointer]:
+              - /url: /docs/users/#users-update
+          - listitem [ref=e183]:
+            - link "Delete a user" [ref=e184] [cursor=pointer]:
+              - /url: /docs/users/#users-delete
+      - listitem [ref=e185]:
+        - link "Posts" [ref=e186] [cursor=pointer]:
+          - /url: /docs/posts
+        - list:
+          - listitem [ref=e189]:
+            - link "Get all posts" [ref=e190] [cursor=pointer]:
+              - /url: /docs/posts/#posts-all
+          - listitem [ref=e191]:
+            - link "Get a single post" [ref=e192] [cursor=pointer]:
+              - /url: /docs/posts/#posts-single
+          - listitem [ref=e193]:
+            - link "Search posts" [ref=e194] [cursor=pointer]:
+              - /url: /docs/posts/#posts-search
+          - listitem [ref=e195]:
+            - link "Limit & Skip posts" [ref=e196] [cursor=pointer]:
+              - /url: /docs/posts/#posts-limit_skip
+          - listitem [ref=e197]:
+            - link "Sort posts" [ref=e198] [cursor=pointer]:
+              - /url: /docs/posts/#posts-sort
+          - listitem [ref=e199]:
+            - link "Get post by user id" [ref=e200] [cursor=pointer]:
+              - /url: /docs/posts/#posts-user
+          - listitem [ref=e201]:
+            - link "Get post's comments" [ref=e202] [cursor=pointer]:
+              - /url: /docs/posts/#posts-comments
+          - listitem [ref=e203]:
+            - link "Add a post" [ref=e204] [cursor=pointer]:
+              - /url: /docs/posts/#posts-add
+          - listitem [ref=e205]:
+            - link "Update a post" [ref=e206] [cursor=pointer]:
+              - /url: /docs/posts/#posts-update
+          - listitem [ref=e207]:
+            - link "Delete a post" [ref=e208] [cursor=pointer]:
+              - /url: /docs/posts/#posts-delete
+      - listitem [ref=e209]:
+        - link "Comments" [ref=e210] [cursor=pointer]:
+          - /url: /docs/comments
+        - list:
+          - listitem [ref=e213]:
+            - link "Get all comments" [ref=e214] [cursor=pointer]:
+              - /url: /docs/comments/#comments-all
+          - listitem [ref=e215]:
+            - link "Get a single comment" [ref=e216] [cursor=pointer]:
+              - /url: /docs/comments/#comments-single
+          - listitem [ref=e217]:
+            - link "Limit & Skip comments" [ref=e218] [cursor=pointer]:
+              - /url: /docs/comments/#comments-limit_skip
+          - listitem [ref=e219]:
+            - link "Sort comments" [ref=e220] [cursor=pointer]:
+              - /url: /docs/comments/#comments-sort
+          - listitem [ref=e221]:
+            - link "Get comment by post id" [ref=e222] [cursor=pointer]:
+              - /url: /docs/comments/#comments-post
+          - listitem [ref=e223]:
+            - link "Add a comment" [ref=e224] [cursor=pointer]:
+              - /url: /docs/comments/#comments-add
+          - listitem [ref=e225]:
+            - link "Update a comment" [ref=e226] [cursor=pointer]:
+              - /url: /docs/comments/#comments-update
+          - listitem [ref=e227]:
+            - link "Delete a comment" [ref=e228] [cursor=pointer]:
+              - /url: /docs/comments/#comments-delete
+      - listitem [ref=e229]:
+        - link "Todos" [ref=e230] [cursor=pointer]:
+          - /url: /docs/todos
+        - list [ref=e233]:
+          - listitem [ref=e234]:
+            - link "Get all todos" [ref=e235] [cursor=pointer]:
+              - /url: /docs/todos/#todos-all
+          - listitem [ref=e236]:
+            - link "Get a single todo" [ref=e237] [cursor=pointer]:
+              - /url: /docs/todos/#todos-single
+          - listitem [ref=e238]:
+            - link "Get a random todo" [ref=e239] [cursor=pointer]:
+              - /url: /docs/todos/#todos-random
+          - listitem [ref=e240]:
+            - link "Limit & Skip todos" [ref=e241] [cursor=pointer]:
+              - /url: /docs/todos/#todos-limit_skip
+          - listitem [ref=e242]:
+            - link "Sort todos" [ref=e243] [cursor=pointer]:
+              - /url: /docs/todos/#todos-sort
+          - listitem [ref=e244]:
+            - link "Add a todo" [ref=e245] [cursor=pointer]:
+              - /url: /docs/todos/#todos-add
+          - listitem [ref=e246]:
+            - link "Update a todo" [ref=e247] [cursor=pointer]:
+              - /url: /docs/todos/#todos-update
+          - listitem [ref=e248]:
+            - link "Delete a todo" [ref=e249] [cursor=pointer]:
+              - /url: /docs/todos/#todos-delete
+      - listitem [ref=e250]:
+        - link "Quotes" [ref=e251] [cursor=pointer]:
+          - /url: /docs/quotes
+        - list:
+          - listitem [ref=e254]:
+            - link "Get all quotes" [ref=e255] [cursor=pointer]:
+              - /url: /docs/quotes/#quotes-all
+          - listitem [ref=e256]:
+            - link "Get a single quote" [ref=e257] [cursor=pointer]:
+              - /url: /docs/quotes/#quotes-single
+          - listitem [ref=e258]:
+            - link "Get a random quote" [ref=e259] [cursor=pointer]:
+              - /url: /docs/quotes/#quotes-random
+          - listitem [ref=e260]:
+            - link "Limit & Skip quotes" [ref=e261] [cursor=pointer]:
+              - /url: /docs/quotes/#quotes-limit_skip
+          - listitem [ref=e262]:
+            - link "Sort quotes" [ref=e263] [cursor=pointer]:
+              - /url: /docs/quotes/#quotes-sort
+      - listitem [ref=e264]:
+        - link "Mock HTTP" [ref=e265] [cursor=pointer]:
+          - /url: /docs/http
+        - list:
+          - listitem [ref=e268]:
+            - link "Mock HTTP Response" [ref=e269] [cursor=pointer]:
+              - /url: /docs/http/#http-mock
+          - listitem [ref=e270]:
+            - link "Custom HTTP Response" [ref=e271] [cursor=pointer]:
+              - /url: /docs/http/#http-custom
+  - generic [ref=e273]:
+    - heading [level=1] [ref=e274]:
+      - img "svg icon" [ref=e275]
+      - text: Todos - Docs
+    - paragraph [ref=e276]:
+      - text: The
+      - strong [ref=e277]: todos
+      - text: endpoint provides a dataset of sample to-do items, including details like task descriptions, statuses, and user IDs, ideal for testing and prototyping task management and productivity applications.
+    - generic [ref=e278]:
+      - link "Get all todos" [ref=e279] [cursor=pointer]:
+        - /url: "#todos-all"
+      - paragraph [ref=e280]:
+        - text: By default you will get 30 items, use
+        - link "Limit and skip" [ref=e281] [cursor=pointer]:
+          - /url: "#todos-limit_skip"
+        - text: to paginate through all items.
+      - code [ref=e283]: fetch('https://dummyjson.com/todos') .then(res => res.json()) .then(console.log);
+      - button "Hide Output" [active] [ref=e365] [cursor=pointer]
+      - code [ref=e285]: "{ \"todos\": [ { \"id\": 1, \"todo\": \"Do something nice for someone I care about\", \"completed\": true, \"userId\": 26 }, {...}, {...} // 30 items ], \"total\": 150, \"skip\": 0, \"limit\": 30 }"
+    - generic [ref=e286]:
+      - link "Get a single todo" [ref=e287] [cursor=pointer]:
+        - /url: "#todos-single"
+      - code [ref=e289]: fetch('https://dummyjson.com/todos/1') .then(res => res.json()) .then(console.log);
+      - button "Show Output" [ref=e290] [cursor=pointer]
+      - code [ref=e291]: "{ \"id\": 1, \"todo\": \"Do something nice for someone I care about\", \"completed\": true, \"userId\": 26 }"
+    - generic [ref=e292]:
+      - link "Get a random todo" [ref=e293] [cursor=pointer]:
+        - /url: "#todos-random"
+      - paragraph [ref=e294]:
+        - text: The random data will change on every call to
+        - generic [ref=e295]: /random
+        - text: . You can optionally pass a length of max 10 as
+        - generic [ref=e296]: /random/10
+        - text: .
+      - code [ref=e298]: fetch('https://dummyjson.com/todos/random') .then(res => res.json()) .then(console.log);
+      - button "Show Output" [ref=e299] [cursor=pointer]
+      - code [ref=e300]: "{ // random result, will be changed on every call to /random \"id\": 127, \"todo\": \"Prepare a dish from a foreign culture\", \"completed\": false, \"userId\": 7 }"
+    - generic [ref=e301]:
+      - link "Limit and skip todos" [ref=e302] [cursor=pointer]:
+        - /url: "#todos-limit_skip"
+      - paragraph [ref=e303]:
+        - text: You can pass
+        - generic [ref=e304]: limit
+        - text: and
+        - generic [ref=e305]: skip
+        - text: params to limit and skip the results for pagination, and use
+        - generic [ref=e306]: limit=0
+        - text: to get all items.
+      - paragraph [ref=e307]:
+        - text: You can pass
+        - generic [ref=e308]: select
+        - text: as query params with comma-separated values to select specific data
+      - code [ref=e310]: fetch('https://dummyjson.com/todos?limit=3&skip=10&select=todo,completed') .then(res => res.json()) .then(console.log);
+      - button "Show Output" [ref=e311] [cursor=pointer]
+      - code [ref=e312]: "{ \"todos\": [ { \"id\": 11, // first 10 items were skipped \"todo\": \"Text a friend I haven't talked to in a long time\", \"completed\": false }, { \"id\": 12, \"todo\": \"Organize pantry\", \"completed\": true }, { \"id\": 13, \"todo\": \"Buy a new house decoration\", \"completed\": false } ], \"total\": 150, \"skip\": 10, \"limit\": 3 }"
+    - generic [ref=e313]:
+      - link "Sort todos" [ref=e314] [cursor=pointer]:
+        - /url: "#todos-sort"
+      - paragraph [ref=e315]:
+        - text: You can pass
+        - generic [ref=e316]: sortBy
+        - text: and
+        - generic [ref=e317]: order
+        - text: params to sort the results,
+        - generic [ref=e318]: sortBy
+        - text: should be field name and
+        - generic [ref=e319]: order
+        - text: should be "asc" or "desc"
+      - code [ref=e321]: fetch('https://dummyjson.com/todos?sortBy=todo&order=asc') .then(res => res.json()) .then(console.log);
+      - button "Show Output" [ref=e322] [cursor=pointer]
+      - code [ref=e323]: "{ \"todos\": [ { \"id\": 181, \"todo\": \"Attend a comedy show\", // sorted by todo in ascending order \"completed\": false, \"userId\": 157 }, {...}, {...} // 30 items ], \"total\": 150, \"skip\": 0, \"limit\": 30 }"
+    - generic [ref=e324]:
+      - link "Get all todos by user id" [ref=e325] [cursor=pointer]:
+        - /url: "#todos-user"
+      - code [ref=e327]: /* getting todos of user with id 5 */ fetch('https://dummyjson.com/todos/user/5') .then(res => res.json()) .then(console.log);
+      - button "Show Output" [ref=e328] [cursor=pointer]
+      - code [ref=e329]: "{ \"todos\": [ { \"id\": 19, \"todo\": \"Create a compost pile\", \"completed\": true, \"userId\": 5 // user id is 5 }, {...}, {...} ], \"total\": 3, \"skip\": 0, \"limit\": 3 }"
+    - generic [ref=e330]:
+      - link "Add a new todo" [ref=e331] [cursor=pointer]:
+        - /url: "#todos-add"
+      - paragraph [ref=e332]: Adding a new todo will not add it into the server. It will simulate a POST request and will return the new created todo with a new id
+      - code [ref=e334]: "fetch('https://dummyjson.com/todos/add', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ todo: 'Use DummyJSON in the project', completed: false, userId: 5, }) }) .then(res => res.json()) .then(console.log);"
+      - button "Show Output" [ref=e335] [cursor=pointer]
+      - code [ref=e336]: "{ \"id\": 151, \"todo\": \"Use DummyJSON in the project\", \"completed\": false, \"userId\": 5 }"
+    - generic [ref=e337]:
+      - link "Update a todo" [ref=e338] [cursor=pointer]:
+        - /url: "#todos-update"
+      - paragraph [ref=e339]: Updating a todo will not update it into the server. It will simulate a PUT/PATCH request and will return updated todo with modified data
+      - code [ref=e341]: "/* updating completed status of todo with id 1 */ fetch('https://dummyjson.com/todos/1', { method: 'PUT', /* or PATCH */ headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ completed: false, }) }) .then(res => res.json()) .then(console.log);"
+      - button "Show Output" [ref=e342] [cursor=pointer]
+      - code [ref=e343]: "{ \"id\": \"1\", \"todo\": \"Do something nice for someone I care about\", \"completed\": false, // complete status was changed \"userId\": 26 }"
+    - generic [ref=e344]:
+      - link "Delete a todo" [ref=e345] [cursor=pointer]:
+        - /url: "#todos-delete"
+      - paragraph [ref=e346]:
+        - text: Deleting a todo will not delete it into the server. It will simulate a DELETE request and will return deleted todo with
+        - generic [ref=e347]: isDeleted
+        - text: "&"
+        - generic [ref=e348]: deletedOn
+        - text: keys
+      - code [ref=e350]: "fetch('https://dummyjson.com/todos/1', { method: 'DELETE', }) .then(res => res.json()) .then(console.log);"
+      - button "Show Output" [ref=e351] [cursor=pointer]
+      - code [ref=e352]: "{ \"id\": 1, \"todo\": \"Do something nice for someone I care about\", \"completed\": true, \"userId\": 26, \"isDeleted\": true, \"deletedOn\": /* ISOTime */ }"
+  - generic [ref=e353]:
+    - link [ref=e355] [cursor=pointer]:
+      - /url: https://buymeacoffee.com/muhammadovi
+      - text: Buy me a coffee
+      - img "Coffee Icon" [ref=e356]
+    - generic [ref=e357]:
+      - link [ref=e358] [cursor=pointer]:
+        - /url: https://github.com/Ovi/DummyJSON
+        - img "Github" [ref=e359]
+      - link [ref=e360] [cursor=pointer]:
+        - /url: https://x.com/DummyJSON
+        - img "Github" [ref=e361]
+      - link [ref=e362] [cursor=pointer]:
+        - /url: https://linkedin.com/company/DummyJSON
+        - img "Github" [ref=e363]
